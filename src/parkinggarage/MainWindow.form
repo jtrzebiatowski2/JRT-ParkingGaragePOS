@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Parking Garage Interface"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="cc" red="cc" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Hand Cursor"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblChangeCalcInstruction" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSelectedCalculator" alignment="0" min="-2" pref="502" max="-2" attributes="0"/>
+                          <Component id="jComboBoxFeeCalculator" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
+                          <Component id="jComboBoxParkingGarageCompany" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblFeeCalculatorHeading" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                              <Component id="btnSelectCompanyAndCalculator" min="-2" pref="181" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblParkingGarageCompanyHeading" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblSelectedGarage" alignment="0" min="-2" pref="502" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="482" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnParkCar" min="-2" pref="87" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lblCarParkedStatus" min="-2" pref="436" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblHoursParkedHeading" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtHoursParked" min="-2" pref="59" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblHoursParkedErrorMessage" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
+                              <Component id="lblParkCarsHeading" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="btnChangeFeeCalculator" min="-2" pref="152" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnCheckoutCar" min="-2" pref="87" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lblParkingFee" min="-2" pref="222" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnExitProgram" min="-2" pref="124" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="146" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblParkingGarageCompanyHeading" min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jComboBoxParkingGarageCompany" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="lblFeeCalculatorHeading" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btnSelectCompanyAndCalculator" min="-2" pref="63" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="jComboBoxFeeCalculator" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblSelectedGarage" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblSelectedCalculator" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblParkCarsHeading" alignment="1" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="btnChangeFeeCalculator" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblHoursParkedErrorMessage" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblHoursParkedHeading" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHoursParked" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnParkCar" min="-2" pref="43" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblCarParkedStatus" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btnCheckoutCar" min="-2" pref="44" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnExitProgram" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="lblParkingFee" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="lblChangeCalcInstruction" min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblFeeCalculatorHeading">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Select Fee Calculator"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxParkingGarageCompany">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Best Value Parking Garage"/>
+            <StringItem index="1" value="Thrifty Parking Garage"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParkingGarageCompanyHeading">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Select Parking Garage Company"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxFeeCalculator">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JComboBox(strategies);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSelectCompanyAndCalculator">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trajan Pro" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Confirm Selections"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSelectCompanyAndCalculatorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSelectedCalculator">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="3"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParkCarsHeading">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Park A Vehicle"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+            <CompoundBorder>
+              <Border PropertyName="outside" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="2">
+                  <Color PropertyName="color" blue="99" green="0" red="0" type="rgb"/>
+                </LineBorder>
+              </Border>
+              <Border PropertyName="inside" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="3">
+                  <Color PropertyName="color" blue="ff" green="ff" red="66" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </CompoundBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHoursParked">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHoursParkedHeading">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Enter Number of Hours to park Vehicle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnParkCar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Park Car"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder>
+              <Color PropertyName="highlightOuter" blue="33" green="cc" red="0" type="rgb"/>
+              <Color PropertyName="highlightInner" blue="33" green="cc" red="0" type="rgb"/>
+              <Color PropertyName="shadowOuter" blue="0" green="cc" red="0" type="rgb"/>
+              <Color PropertyName="shadowInner" blue="33" green="cc" red="0" type="rgb"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnParkCarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCarParkedStatus">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCheckoutCar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Checkout Car"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder>
+              <Color PropertyName="highlightOuter" blue="0" green="0" red="ff" type="rgb"/>
+              <Color PropertyName="highlightInner" blue="0" green="0" red="ff" type="rgb"/>
+              <Color PropertyName="shadowOuter" blue="0" green="0" red="ff" type="rgb"/>
+              <Color PropertyName="shadowInner" blue="0" green="0" red="ff" type="rgb"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCheckoutCarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParkingFee">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHoursParkedErrorMessage">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSelectedGarage">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="3"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnChangeFeeCalculator">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Change Fee Calculator"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder bevelType="1">
+              <Color PropertyName="highlightOuter" blue="99" green="0" red="0" type="rgb"/>
+              <Color PropertyName="highlightInner" blue="99" green="0" red="0" type="rgb"/>
+              <Color PropertyName="shadowOuter" blue="99" green="0" red="0" type="rgb"/>
+              <Color PropertyName="shadowInner" blue="ff" green="66" red="66" type="rgb"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnChangeFeeCalculatorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblChangeCalcInstruction">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Change your fee calculator at any time by selecting your choice from the Fee Calculator list and hitting &quot;Change Fee Calculator&quot;"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Change your fee calculator at ny time by selecting your choice &#xa;from the Fee Calculator list ang hitting &quot;Change Fee Calculator&quot;"/>
+      </AccessibilityProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/parkinggarage/self-parking-garage1.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnExitProgram">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="QUIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExitProgramActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
